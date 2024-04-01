@@ -18,7 +18,7 @@ void *proceso_1(void *s){
 void *proceso_2(void *parametro){  
    printf("Yo soy otro Hilo o Thread\n");
    numletter *ptr = (numletter *)parametro;
-   printf("mi dato de entrada es %d\n", ptr->a);
+   printf("mi dato de entrada es %c\n", ptr->b);
    pthread_exit(NULL);
 }
 

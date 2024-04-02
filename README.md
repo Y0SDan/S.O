@@ -16,3 +16,22 @@ Un proceso tiene su propio espacio de memoria, un hilo puede compartir el espaci
 `void *proceso_2(void *parametro){}` -> Se le coloca un apuntador void por que asi puede apuntar a cualquier tipo de dato
 
 >poder compartir a travez de los hilos un tipo de dato creado por nosotros Enmascarar
+
+# 2 de abril 2024
+>cd /proc  ->  Es qui donde se guardan los procesos
+### 
+>cd 8080 nos movemos a la carpeta cuyo nombre sea el pid del proceso visto rn htop (éstas carpetas son temporales) Ahí podemor ver los hilos que se crean con el programa "hilos2.c"
+
+Los ciclos estan úesto en un ciclo infinito por eso nunca terminan
+### 
+Si el hilo padre muere los hilos hijos tambien lo hacen
+###
+Para que compile de manera correcta tuve que compilar de esta manera en el codespace
+>gcc -o term term.c -lpthread
+###
+Hilos diferentes ejecutando la misma tarea
+>thread_create (h1, NULL procesaImagen, NULL);
+###
+>thread-create (h2, NULL, procesaImagen, NULL);
+###
+El reto es ejecutar una misma tarea con diferentes procesos 

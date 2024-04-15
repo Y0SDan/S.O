@@ -48,3 +48,20 @@ El Sistema Operativo le da 20 milisegundos y durante esos 20 milisegundos te voy
 <h3>Memoria Compartida</h3>
 <h3>Condiciones de carrera</h3>
 <h3>Zona crítica</h3>
+
+<h1>Ejercicio</h1>
+Simular un punto de venta automatizado de venta de boletos de autobús;
+
+###
+Un autobús de pasajeros tiene 40 asisentos, escriba una programa multihilos que simula la venta de boletos del autobús
+
+"Espera pasiva mandando a dormir con el conadado el hilo espera activa usando un while"
+se puede programar en un raspberry antes la electronica no soportaba candados
+
+¿que es una semaforo?
+
+cambiaron al forma de manejar hilos en linux en 2018
+
+en java se cooprta diferente
+
+

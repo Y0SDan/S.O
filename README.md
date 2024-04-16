@@ -65,3 +65,11 @@ cambiaron al forma de manejar hilos en linux en 2018
 en java se cooprta diferente
 
 
+#
+- <h3> Interbloqueos | Dead lock | Abrazo mortal </h3>
+En este tema la palabra hilo y procesos son equivalentes, ya que los mismos bloqueos que se tieenen a nivel hilo se pueden tener en procesos
+
+Cuando estan todos los hilos se quedan detenidos esperando a que uno hilo haga algo, si mas de un hilo
+
+Otros problemas clásicos es el barbero dormilo ec. hay un libro con 8 problemas clsicos 
+

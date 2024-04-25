@@ -73,3 +73,8 @@ Cuando estan todos los hilos se quedan detenidos esperando a que uno hilo haga a
 
 Otros problemas clásicos es el barbero dormilo ec. hay un libro con 8 problemas clsicos 
 
+<h1>Archivos</h1>
+Existen 3 formas de manipular archivos directa, indexada y secuencial.
+
+-tabla auxiliar o tabla de inidices
+
